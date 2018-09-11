@@ -8,7 +8,7 @@
  */
 
 // Your code :
-
+const escapeStr ="\u0022"+"\u0027"+"\u005C"+"\u005C"+"\`"+"\/";
 //* Begin of tests
 const assert = require('assert')
 

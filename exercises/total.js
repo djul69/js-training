@@ -5,7 +5,11 @@
  * and return the total
  *
  */
-
+//code
+var array = new Array();
+function total(array){
+return array.reduce((a, b) => a + b, 0)
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -10,7 +10,10 @@
  */
 
 // Your code :
-
+function abs(x){
+if (x<0){let y=2*x;
+return x-y;}else{return x;}
+}
 //* Begin of tests
 const assert = require('assert')
 
