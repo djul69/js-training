@@ -2,3 +2,5 @@ script: ./tester basics
 language: node_js
 node_js:
   - "node"
+$ export MY_VAR=EverythignIsAwesome
+$ export PATH=./node_modules/.bin:$PATH
