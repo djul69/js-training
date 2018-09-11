@@ -1,4 +1,6 @@
-﻿'use strict'
+﻿#!/usr/bin/env node
+
+'use strict'
 
 // extend str for colors
 'no0.blk30.red31.grn32.ylw33.blu34.mgt35.cyn36.wht37'
@@ -108,4 +110,3 @@ Promise.all(pkg.tests.map(async ({ name }) => ({
   console.error(err)
   process.exit(1)
 })
-
