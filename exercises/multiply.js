@@ -13,7 +13,7 @@ function multiply(x,y) {
 var i=0;
 var w=0;
 
-if(y==0) {
+if(y==0||x==0) {
 return 0;
 } else if (y>0) {
 while (i<y){
