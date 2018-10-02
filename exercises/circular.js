@@ -8,7 +8,11 @@
  */
 
 // Your code :
-
+let circular = {"circular":""};
+function result(circular){
+   circular.get("circular").set("value",circular);
+}
+return result;
 //* Begin of tests
 const assert = require('assert')
 
